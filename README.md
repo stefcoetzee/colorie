@@ -17,4 +17,4 @@ Colorful, minimal one-column portfolio/blog theme built for Jekyll. Perfect for 
 - json feed
 - http security headers
 
-![Screenshot](screenshot.png)
+Cloned from [ronv/colorie](https://github.com/ronv/colorie). Thanks [Ron](https://twitter.com/ronaldsvilcins)!
