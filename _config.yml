@@ -1,27 +1,25 @@
-site: Colorie
+site: Stef Coetzee
 url: 
-author: Colorie
+author: Stef Coetzee
 author:
-  name: Colorie
+  name: Stef Coetzee
   email: 
   url: 
   avatar: 
-title: Colorie
-description: Colorie - Single column blog and portfolio Jekyll theme 
+title: Stef Coetzee
+description: Personal website of Stef Coetzee
 logo: 
 image: 
-twitter: ronaldsvilcins  
+twitter: stef_coetzee  
 twitter:
-  username: ronaldsvilcins
-  creator: ronaldsvilcins
+  username: stef_coetzee
+  creator: stef_coetzee
   card: summary
 social:
-  name: Ronalds Vilcins
+  name: Stef Coetzee
   links:
     - https://twitter.com/#
-    - https://www.dribbble.com/#
     - https://github.com/#
-    - https://codepen.io/#
   
 permalink: pretty
 
