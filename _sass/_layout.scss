@@ -190,7 +190,7 @@ nav {
 footer {
   margin: 1rem 0;
   text-align: center;
-  a {
+  a, a:visited {
     text-decoration: none;
     &:hover {
       color: #ef7d4d;
