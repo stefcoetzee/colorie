@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Rails with Devise: Sign in as app landing page"
-description: Use Devise sign-in page as landing page of Rails application
+title: "Rails with Devise: Sign-in page as app landing page"
+description: How to use Devise’s sign-in page as the landing page for a Rails 
+             application.
 summary: How to use Devise’s sign-in page as the landing page for a Rails 
          application.
 tags: [rails, devise] 
