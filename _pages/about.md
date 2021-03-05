@@ -18,7 +18,7 @@ engineering, also at SU.
 
 This site is meant to facilitate sharing of information. 
 If you, like me, enjoy discovering books by seeing what others have read, take 
-a look at my bookshelf. 
+a look at my [bookshelf](/bookshelf). 
 If you’d like to read something I wrote, head over to the [writing page](/). 
 Naturally, all views are my own.
 
