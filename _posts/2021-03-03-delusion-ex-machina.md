@@ -4,7 +4,7 @@ title: Delusion Ex Machina
 description: Definition and remedies to the delusion ex machina 
 summary: Waiting for a magical solution to life’s biggest problems gets us no 
          closer to solving them.
-tags: [meaning]
+tags: [life, progress]
 ---
 
 The unlikely outcome is also the common outcome in works of fiction. The hero prevents the missile launch. Long-lost lovers reunite through a chance encounter on a train-station platform. Against all odds, the underdog team wins the championship. Real life,  however, is not fiction.
