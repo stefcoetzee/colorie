@@ -1,5 +1,5 @@
 site: Stef Coetzee
-url: 
+url: stefcoetzee.com
 author: Stef Coetzee
 author:
   name: Stef Coetzee
@@ -46,6 +46,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - disqus-for-jekyll
+  - jekyll-target-blank
 
 collections:
   pages:
