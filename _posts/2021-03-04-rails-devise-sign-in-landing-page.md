@@ -6,7 +6,7 @@ description: How to use Devise’s sign-in page as the landing page for a Rails
 summary: How to use Devise’s sign-in page as the landing page for a Rails 
          application.
 tags: [rails, devise]
-last_modified_at: 2021-03-06
+last_modified_at: 2021-03-07
 ---
 
 A sensible [guideline](https://twitter.com/tylertringas/status/1250521285630836741) for web applications is to keep the product decoupled from marketing. 
@@ -50,10 +50,10 @@ end
 At this point, after logging in the root route spirals into an infinite redirect, which obviously doesn’t resolve.
 This bit tripped me up for a second (or two). 
 Enter Stack Overflow. 
-I happened upon [this page](https://stackoverflow.com/questions/4954876/setting-devise-login-to-be-root-page) first, which has the same problem we’re stuck on. 
+I happened upon [this question](https://stackoverflow.com/questions/4954876/setting-devise-login-to-be-root-page) first, which has the same problem we’re stuck on. 
 No bueno. 
-Thanks to the kindness of user Jngai1297, we could click through to [this page](https://stackoverflow.com/questions/19855866/how-to-set-devise-sign-in-page-as-root-page-in-rails), where Rajdeep Singh lands the finish blow on our formidable foe. 
-It turns out we have another adjustment to make to `ApplicationController`:
+Thanks to the kindness of user Jngai1297, we could click through to [this answer](https://stackoverflow.com/questions/19855866/how-to-set-devise-sign-in-page-as-root-page-in-rails), where Rajdeep Singh lands the finishing blow on our infinite-redirect foe. 
+Turns out we have another adjustment to make to `ApplicationController`:
 
 ```ruby
 # app/controllers/application_controller.rb
