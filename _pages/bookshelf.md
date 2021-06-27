@@ -14,7 +14,7 @@ Books I think are worth rereading, organised by order in which they were read
 are listed below.
 English translations of Afrikaans titles are given in parenthesis.
 
-  - *Good Profit*, by Charles Kock
+  - *Good Profit*, by Charles Koch
   - *Good Strategy, Bad Strategy*, by Richard Rumelt
   - *Conspiracy: Peter Thiel, Hulk Hogan, Gawker, and the Anatomy of Intrigue*,
     by Ryan Holiday
