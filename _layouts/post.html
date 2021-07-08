@@ -16,8 +16,8 @@ layout: default
 	</div>
 
   {{ content }}
-  
-  <p> 
+
+  <p>
     {% for tag in page.tags %}
       <a href="/tag/{{tag}}">#{{tag}}</a>
       {% unless forloop.last %} {% endunless %}
@@ -32,15 +32,22 @@ layout: default
   </div>
 
   <!-- <br> -->
-  
+
   <p>
-    Thanks for reading! 
-    For more valuable content, 
+    Thanks for reading!
+    For more,
     <a href="https://twitter.com/stef_coetzee">follow me</a> on Twitter.
   </p>
 
+  <form name="mailing-list" method="POST" data-netlify="true">
+    <p>
+      <input type="email" name="email" placeholder="Email address" />
+      <button type="submit">Subscribe</button>
+    </p>
+  </form>
+
   <hr style="height:2px; border:none; margin: 2rem 0; background-color:#e7e9ee;">
-  
+
 </article>
 
 

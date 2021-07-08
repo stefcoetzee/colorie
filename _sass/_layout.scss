@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  margin:0; 
-  padding:0; 
+  margin:0;
+  padding:0;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -102,7 +102,7 @@ header, main {
 	text-decoration: none;
 }
 
-.card p { 
+.card p {
   font-size: 0.9rem;
 }
 
@@ -121,7 +121,7 @@ header, main {
 .card .meta {
    padding: 2rem;
    display: flex;
-  
+
   flex: 1;
   justify-content: space-between;
   flex-direction: column;
@@ -132,7 +132,7 @@ header, main {
 	padding: 2rem 3rem;
 	-webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
   box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-	
+
 }
 
 .card {
@@ -196,4 +196,7 @@ footer {
       color: #ef7d4d;
     }
   }
+}
+.inline-container {
+  background-color: lawngreen;
 }
