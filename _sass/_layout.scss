@@ -135,12 +135,20 @@ header, main {
 
 }
 
-.card {
+.card, .btn-submit {
 	transition: all 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
   &:hover {
     transform: scale(1.02);
   }
 }
+
+.btn-submit {
+	transition: all 0.15s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
 ul, ol {
 	padding: 0;
 	list-style-position: outside;

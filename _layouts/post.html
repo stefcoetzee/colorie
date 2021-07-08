@@ -17,6 +17,8 @@ layout: default
 
   {{ content }}
 
+  <p>Thanks for reading!</p>
+
   <p>
     {% for tag in page.tags %}
       <a href="/tag/{{tag}}">#{{tag}}</a>
@@ -33,17 +35,32 @@ layout: default
 
   <!-- <br> -->
 
-  <p>
-    Thanks for reading!
-    For more,
-    <a href="https://twitter.com/stef_coetzee">follow me</a> on Twitter.
+  <h3 style="margin-bottom: 0; font-weight: bold;">
+    Join the mailing list
+  </h3>
+
+  <p style="margin-top: 0px; margin-bottom: 0;">
+    Sign up to get new posts as they go live. 🚀
   </p>
 
-  <form name="mailing-list" method="POST" data-netlify="true">
-    <p>
-      <input type="email" name="email" placeholder="Email address" />
-      <button type="submit">Subscribe</button>
-    </p>
+  <form name="mailing-list" method="POST" data-netlify="true" action="/"
+        style="margin-top: 0;">
+    <input type="email" name="email" placeholder="Email address"
+            style="font-family: inherit;
+                  padding: 10px;
+                  margin-right: 5px;
+                  margin-top: 10px;" />
+    <button class="btn-submit" type="submit"
+            style="font-family: inherit;
+                   font-weight: bold;
+                   color: white;
+                   padding: 10px;
+                   margin-top: 8px;
+                   background-color: #ef7d4d;
+                   border: 2px solid #ef7d4d;
+                   ">
+      Subscribe
+    </button>
   </form>
 
   <hr style="height:2px; border:none; margin: 2rem 0; background-color:#e7e9ee;">
