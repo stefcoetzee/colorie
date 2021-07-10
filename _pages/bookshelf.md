@@ -13,7 +13,7 @@ title: Bookshelf
 Books I think are worth rereading, organized in reverse reading order, are listed below.
 English translations of [Afrikaans](https://en.wikipedia.org/wiki/Afrikaans) titles are given in parenthesis.
 
-  - *Authority*, by Nathan Barry
+  - *Authority: Become an Expert, Build a Following, and Gain Financial Independence*, by Nathan Barry
   - *Good Profit*, by Charles Koch
   - *Good Strategy, Bad Strategy*, by Richard Rumelt
   - *Conspiracy: Peter Thiel, Hulk Hogan, Gawker, and the Anatomy of Intrigue*, by Ryan Holiday
