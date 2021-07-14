@@ -3,14 +3,14 @@ url: stefcoetzee.com
 author: Stef Coetzee
 author:
   name: Stef Coetzee
-  email: 
-  url: 
-  avatar: 
+  email:
+  url:
+  avatar:
 title: Stef Coetzee
 description: Personal website of Stef Coetzee
-logo: 
-image: 
-twitter: stef_coetzee  
+logo:
+image:
+twitter: stef_coetzee
 twitter:
   username: stef_coetzee
   creator: stef_coetzee
@@ -20,7 +20,7 @@ social:
   links:
     - https://twitter.com/stef_coetzee
     - https://github.com/#
-  
+
 permalink: pretty
 
 disqus:
@@ -31,7 +31,7 @@ baseurl:             ""
 
 include:
   - _redirects
-  
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -42,10 +42,8 @@ sass:
 
 plugins:
   - jekyll-paginate
-  - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
-  - disqus-for-jekyll
   - jekyll-target-blank
 
 collections:
@@ -58,7 +56,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:slug
-  
+
 defaults:
   -
     scope:
@@ -82,8 +80,8 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "project"     
-      
+      layout: "project"
+
   - scope:
       path: "assets/images"
     values:
